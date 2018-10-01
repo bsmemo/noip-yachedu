@@ -25,3 +25,13 @@
 // 样例输出
 //
 // $1581.42
+#include<iostream>
+using namespace std;
+int main()
+{
+    float a1,a2,a3,a4,a5,a6,a7,a8,a9,a10,a11,a12;
+    cin>>a1>>a2>>a3>>a4>>a5>>a6>>a7>>a8>>a9>>a10>>a11>>a12;
+    cout<<"$";
+	printf("%.2f",(a1+a2+a3+a4+a5+a6+a7+a8+a9+a10+a11+a12)/12);
+	return 0;
+}

@@ -21,3 +21,18 @@
 // 样例输出
 //
 // 1131 282.75000
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a,b,u=0;
+    cin>>a;
+    for(int i=1;i<=a;i++){
+    	cin>>b;
+    	u=u+b;
+	}
+	cout<<u;
+	cout<<" ";
+	printf("%.5f",u/(a*1.0));
+	return 0;
+}

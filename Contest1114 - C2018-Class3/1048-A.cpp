@@ -16,3 +16,17 @@
 // 样例输出
 //
 // 17.50
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a,b;
+    double u=0;
+    cin>>a;
+    for(int i=1;i<=a;i++){
+    	cin>>b;
+    	u=u+b;
+	}
+	printf("%.2f",u/a);
+	return 0;
+}
