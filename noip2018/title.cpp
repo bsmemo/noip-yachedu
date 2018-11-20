@@ -18,3 +18,17 @@ int main() {
 
     return 0;
 }
+
+/*#include<bits/stdc++.h>
+using namespace std;
+string s;
+int main()
+{
+    int sum=0;
+    getline(cin.s);
+    for(int i=1;i<=s.length();i++){
+        if(s!=" ")sum++;
+      }
+    cout<<sum;
+    return 0;
+}*/
